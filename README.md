@@ -5,8 +5,9 @@ This project is a **text-based banking system** that uses an interactive, menu-d
 
 Key features include:
 - **Account Management**: Accounts are stored as instances of a user-defined class, keyed by account numbers in a dictionary.
+- **Account Number Assignment**: Each new account is automatically assigned a unique, randomly generated 8-digit account number.
 - **Account Types**: Supports two types of accounts — Savings (S) and Current (C).
-- **Single System**: Accessible by both users and bank admins, with admin access protected by a hard-coded password (modifiable by admins).
+- **Single System**: Accessible by both users and bank admins, with admin access protected by a hard-coded password (modifiable by admins, initially set to 1234).
 
 ### User Features
 Users can:
